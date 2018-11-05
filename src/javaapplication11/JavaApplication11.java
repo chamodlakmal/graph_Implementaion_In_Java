@@ -24,7 +24,12 @@ public class JavaApplication11 {
        g.addEdge(1, 2);
        g.addEdge(2, 4);
        g.addEdge(2, 2);
-       
+       g.addEdge(2, 2);
+       g.addEdge(2, 3);
+        g.addEdge(2, 4); 
+        g.addEdge(3, 3); 
+        g.addEdge(3, 4); 
+        g.addEdge(4, 3); 
        g.BFS(0);
        System.out.println("");
        g.DFS(0);
