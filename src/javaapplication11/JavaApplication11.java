@@ -52,6 +52,12 @@ public class JavaApplication11 {
         // print the adjacency list representation of  
         // the above graph 
         printGraph(graph);
+        
+        //weighted Graph
+        System.out.println("Weighted Graph\n");
+        Weight w=new Weight(V);
+        w.addEdge(0, 1, 1);
+        System.out.print(w);
        
     }
     
